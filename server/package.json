@@ -10,8 +10,20 @@
   "author": "Thomas Dissert",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "mongoose": "^5.3.4"
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
