@@ -2,6 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
+var cors = require('cors');
 
 mongoose.connect('mongodb://localhost/studivision', { useCreateIndex: true, useNewUrlParser: true });
 var db = mongoose.connection;
@@ -15,6 +16,7 @@ var app = express();
 // BodyParser Middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cors());
 
 app.use('/', routes);
 app.use('/users', users);

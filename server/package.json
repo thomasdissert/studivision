@@ -13,6 +13,7 @@
   "dependencies": {
     "bcryptjs": "*",
     "body-parser": "*",
+    "cors": "^2.8.4",
     "express": "*",
     "express-validator": "*",
     "mongodb": "*",
