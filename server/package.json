@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Thomas Dissert",
@@ -12,18 +13,10 @@
   "dependencies": {
     "bcryptjs": "*",
     "body-parser": "*",
-    "connect-flash": "*",
-    "cookie-parser": "^1.4.1",
     "express": "*",
-    "express-handlebars": "*",
-    "express-messages": "*",
-    "express-session": "*",
     "express-validator": "*",
     "mongodb": "*",
-    "mongoose": "*",
-    "passport": "*",
-    "passport-http": "*",
-    "passport-local": "*"
+    "mongoose": "*"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
